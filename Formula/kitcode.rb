@@ -1,28 +1,28 @@
 class Kitcode < Formula
   desc "KitCode Agent is an AI agent built in Rust."
   homepage "https://github.com/taitide-labs/kitcode"
-  version "0.1.13"
+  version "0.1.14"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/taitide-labs/kitcode/releases/download/v0.1.13/kitcode-aarch64-apple-darwin.tar.gz"
-      sha256 "4d14a8b225f7b51ba51a20b1bd0fecf3655de53f5a84fec109a5855b45f9f91b"
+      url "https://github.com/taitide-labs/kitcode/releases/download/v0.1.14/kitcode-aarch64-apple-darwin.tar.gz"
+      sha256 "23a870df550737b28427d53686c82e8eeced9494d7eaee49bf5f0192650a7b37"
     end
     on_intel do
-      url "https://github.com/taitide-labs/kitcode/releases/download/v0.1.13/kitcode-x86_64-apple-darwin.tar.gz"
-      sha256 "bdbb801aee204ffbda54f6cecbc7b2e69d9ed2317ed8a7fdd79cdd77c6261830"
+      url "https://github.com/taitide-labs/kitcode/releases/download/v0.1.14/kitcode-x86_64-apple-darwin.tar.gz"
+      sha256 "1b060c6b0d75fc9024c2684a485ed56ba812b7ef8115ca3a36741c1d932d1d08"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/taitide-labs/kitcode/releases/download/v0.1.13/kitcode-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2b661e49306f6b8592e04844699df0a85f98b41930782dfd28337e575cf24980"
+      url "https://github.com/taitide-labs/kitcode/releases/download/v0.1.14/kitcode-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bce1f7c2c8c49f2198d58acd21d21af934d9832a6234dc24a4954080cc4afd2d"
     end
     on_intel do
-      url "https://github.com/taitide-labs/kitcode/releases/download/v0.1.13/kitcode-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "19a9c9e01cea511e88b244d248a84646255654fd8e57234f96de29c4723b5095"
+      url "https://github.com/taitide-labs/kitcode/releases/download/v0.1.14/kitcode-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a15af53206222f744a15d8f4784614e9abfc51acdd63215cd136c28f40b1475f"
     end
   end
 
